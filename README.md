@@ -39,7 +39,7 @@ The two spool-ups look like the reversing drive: speeds up, slows, speeds up aga
 
 ## On the Pi
 
-    git clone git@github.com:bartbrinkman/platwalserij.git
+    git clone https://github.com/bartbrinkman/platwalserij.git
     cd platwalserij && ./install.sh           # PIN=27 ./install.sh for another pin
 
 That installs pygame + gpiozero from apt and starts `platwals.py` at boot as a

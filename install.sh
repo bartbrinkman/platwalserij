@@ -1,6 +1,6 @@
 #!/bin/sh
 # Install on the Pi: dependencies + autostart at boot as a systemd user service.
-#   git clone git@github.com:bartbrinkman/platwalserij.git && cd platwalserij && ./install.sh
+#   git clone https://github.com/bartbrinkman/platwalserij.git && cd platwalserij && ./install.sh
 # Update later:  git pull && systemctl --user restart platwals
 set -e
 DIR=$(cd "$(dirname "$0")" && pwd)
